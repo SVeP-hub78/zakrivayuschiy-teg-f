@@ -8,16 +8,12 @@
   /*./PressStart2P-Regular.woff*/
   @font-face {
     font-family: 'Inter-Variable';
-    src: url(./Inter-Variable.woff2) format('woff2-variations');
-    font-weight: 400;
+    src: local("Inter-Variable"),
+    url(./Inter-Variable.woff2) format('woff2-variations'),
+    url(./Inter-Variable.woff2) format('woff2 supports variations');
+    font-weight: 400 785;
     font-style: normal;
+    font-display: swap;
   }
   /*./Inter-VariableFont_slnt\,wght.woff2*/
-  @font-face {
-    font-family: 'Inter-Variable';
-    src: url(./Inter-Variable.woff2) format('woff2-variations');
-    font-weight: 785;
-    font-style: normal;
-  }
-  
-  /*./static/Inter-Bold.woff2*/
+ 
