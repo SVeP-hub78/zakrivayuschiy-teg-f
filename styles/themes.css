@@ -24,6 +24,7 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --border-cards: #000000;
   --nav-color: #000000;
   --heart-contour: #000000;
   --heart-hover: #000000;
@@ -53,6 +54,7 @@
         transparent 4px
       ),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --border-cards: #000000;
     --nav-color: #000000;
     --heart-contour: #000000;
     --heart-hover: #000000;
@@ -80,6 +82,7 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  --border-cards: #00cc14;
   --nav-color: #00cc14;
   --heart-contour: #00cc14;
   --card-font-weight: 465;
@@ -106,6 +109,7 @@
         transparent 4px
       ),
       linear-gradient(to bottom, #007f0c 0.01%, #004306);
+    --border-cards: #00cc14;
     --nav-color: #00cc14;
     --heart-contour: #00cc14;
     --card-font-weight: 465;

@@ -24,6 +24,7 @@
       to bottom, #e7e7e7 0.01%,
       #1a1a1a
     );
+    --border-cards: #000000
     --nav-color: #000000;
     --heart-contour: #000000;
     --heart-hover: #000000;

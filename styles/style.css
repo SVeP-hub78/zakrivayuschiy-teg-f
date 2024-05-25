@@ -137,13 +137,13 @@
   padding-inline: 11px;
   padding-block: 4.5px 3.5px;
   font-size: var(--main-font-size);
-  font-variation-settings: "wght" 700;
+  font-variation-settings: var(--card-title-font-weig);
   line-height: normal;
 }
 
 .cards__img-wrap {
   position: relative;
-  border-block: 2px solid #000000;
+  border-block: 2px solid var(--border-cards);
   border-bottom: none;
 }
 
@@ -155,8 +155,7 @@
   font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
-  text-shadow: 1px 0 rgba(255, 255, 255, 1), 0 1px rgba(255, 255, 255, 1),
-    -1px 0 rgba(255, 255, 255, 1), 0 -1px rgba(255, 255, 255, 1);
+  text-shadow: 1px 0 rgba(255, 255, 255, 1), 0 1px rgba(255, 255, 255, 1), -1px 0 rgba(255, 255, 255, 1), 0 -1px rgba(255, 255, 255, 1);
   color: var(--text-color);
   inset-inline-end: 13px;
   inset-block-start: 24px;
@@ -167,9 +166,9 @@
 /*для обводки текста*/
 @supports ((text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff)) {
   .card__img-label {
-    -webkit-text-stroke: 1px #ffffff;
-    text-stroke: 1px #ffffff;
-    text-shadow: none;
+      -webkit-text-stroke: 1px #ffffff;
+      text-stroke: 1px #ffffff;
+      text-shadow: none;
   }
 }
 
@@ -219,11 +218,13 @@
 }
 
 .card__text-content {
-  padding: 28px 27px 0 25px;
+  padding: 28px 26px 0 25px;
+  line-height: 1.164;
 }
 
 .card__text-content-paragraph {
   padding: 0px 25px;
+  line-height: 1.164;
 }
 
 .card__button-wrap {
@@ -399,13 +400,13 @@
 
 @media (width >= 376px) {
   .save-button {
-    flex-direction: row;
-    max-inline-size: 340px;
+      flex-direction: row;
+      max-inline-size: 340px;
   }
 
   .dialog-content {
-    inline-size: 21px;
-    block-size: 21px;
+      inline-size: 21px;
+      block-size: 21px;
   }
 }
 
