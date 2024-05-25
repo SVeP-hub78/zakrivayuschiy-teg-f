@@ -230,7 +230,9 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-inline: auto 0;
-  padding: 0 24px 16px;
+  padding: 25px 24px 17px;
+  justify-items: end;
+  max-inline-size: 240px;
 }
 
 .card__icon-button {
@@ -376,7 +378,6 @@
   font-size: var(--small-font-size, 14px);
   line-height: 0.9;
   mix-blend-mode: difference;
-  text-transform: uppercase;
 }
 
 .footer {
@@ -392,11 +393,11 @@
   grid-column: 1/3;
   margin: 0 auto;
   padding: 12px 0;
-  max-inline-size: 83vw;
+  max-inline-size: 82vw;
   inline-size: 100%;
 }
 
-@media (width >= 375px) {
+@media (width >= 376px) {
   .save-button {
     flex-direction: row;
     max-inline-size: 340px;
