@@ -1,1 +1,43 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --button-text-color: #ffffff;
+  
+    --background-image: repeating-linear-gradient(
+      to right, #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom, #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom, #e7e7e7 0.01%,
+      #1a1a1a
+    );
+    --nav-color: #000000;
+    --heart-contour: #000000;
+    --heart-hover: #000000;
+    --heart-main-body: none;
+    --heart-sparks: #FF0000; 
+    /*size*/
+    --main-font-size: 18px;
+    --small-font-size: 14px;
+    /*fonts*/
+    --general-font: 'Inter-Variable', Arial, sans-serif;
+    --card-font-weight: 400;
+    --card-title-font-weight: 700;
+    --accent-font: 'PressStart2P-Regular', fantasy, monospace;
+  }
+  
+  
+  
