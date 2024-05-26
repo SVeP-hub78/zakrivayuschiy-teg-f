@@ -33,6 +33,7 @@
     /*size*/
     --main-font-size: 18px;
     --small-font-size: 14px;
+    --line-height-card__text: 1.164;
     /*fonts*/
     --general-font: 'Inter-Variable', Arial, sans-serif;
     --card-font-weight: 400;

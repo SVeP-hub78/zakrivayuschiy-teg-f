@@ -218,12 +218,12 @@
 
 .card__text-content {
   padding: 28px 26px 0 25px;
-  line-height: 1.164;
+  line-height: var(--line-height-card__text);
 }
 
 .card__text-content-paragraph {
   padding: 0px 25px;
-  line-height: 1.164;
+  line-height: var(--line-height-card__text);
 }
 
 .card__button-wrap {
