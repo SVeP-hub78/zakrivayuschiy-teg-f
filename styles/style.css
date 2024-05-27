@@ -137,7 +137,7 @@
   padding-inline: 11px;
   padding-block: 4.5px 3.5px;
   font-size: var(--main-font-size);
-  font-variation-settings: var(--card-title-font-weig);
+  font-variation-settings: 'wght' var(--card-title-font-weig);
   line-height: normal;
 }
 
